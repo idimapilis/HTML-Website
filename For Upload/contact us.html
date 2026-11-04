@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>About HTML Website</h1>
+        <p>Get to know more about our website.</p>
+    </header>
+
+    <nav>
+        
+        <a href="index.html">Home</a> |
+        <a href="blog.html">Blogs</a> |
+        <a href="announcements.html">Announcements</a> |
+        <a href="article.html">Articles</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact us.html">Contact Us</a> |
+
+        <!-- Button for switching between light and dark themes -->
+        <button id="theme-toggle" onclick="toggleTheme()">
+            Dark Theme
+        </button>
+            
+    </nav>
+
+    <main>
+
+        <p>
+            <h2>
+                <i>
+                    Thank you for visiting MyBlog! We appreciate your interest in our articles and learning
+                    resources. If you have questions, suggestions, or feedback, please feel free to contact us.
+                </i>
+            </h2>
+        </p>
+
+        <p>
+            We value the opinions of our readers and welcome suggestions that can help us improve
+            the quality of our content and services.
+        </p>
+
+        <!-- HTML Form Demonstration -->
+        <form>
+
+            <p>
+                <label for="name">Full Name:</label><br />
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                />
+            </p>
+
+            <p>
+                <label for="email">Email Address:</label><br />
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                />
+            </p>
+
+            <p>
+                <label for="subject">Subject:</label><br />
+
+                <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="inquiry">General Inquiry</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="suggestion">Suggestion</option>
+                    <option value="other">Other</option>
+                </select>
+                
+            </p>
+
+            <p>
+                <label for="message">Your Message:</label><br />
+
+                <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="40"
+                placeholder="Write your message here"
+                required
+                ></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" id="agreement" name="agreement" required />
+
+                <label for="agreement">
+                I understand that this is a sample contact form created for website
+                development training.
+                </label>
+            </p>
+
+            <p>
+                <button type="button">Send Message (Demo Only)</button>
+
+                <button type="reset">Clear Form</button>
+            </p>
+
+        </form>
+
+        <em>This is a demonstration form only. Messages will not be submitted or stored.</em>
+
+        <br />
+
+        <h2>Other Contact Information</h2>
+
+        <p>
+            <strong>Email:</strong>
+            hello@example.com
+        </p>
+
+        <p>
+            <strong>Website:</strong>
+            HTML Website
+        </p>
+
+        <p>
+            <strong>Location</strong>
+            Philippines
+        </p>
+
+        <br />
+
+        <article>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <ol>
+                
+                <li>
+                    <strong>How can I contact HTML Website</strong>
+                </li>
+
+                <p>You can contact us by using the contact information provided on this page.</p>
+
+                <li>
+                    <strong>Can I suggest topics for future articles?</strong>
+                </li>
+
+                <p>
+                    Yes! We welcome suggestions for articles about technology, education, programming, and
+                    other interesting topics.
+                </p>
+
+                <li>
+                    <strong>How often are new articles published?</strong>
+                </li>
+
+                <p>We aim to publish new content regularly to keep our readers informed and engaged.</p>
+
+            </ol>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+        2026 HTML Website. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
